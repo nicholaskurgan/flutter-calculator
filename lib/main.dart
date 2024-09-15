@@ -118,6 +118,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
           ),
           Row(
             children: [
+              _buildButton('%'),//new button for modulo
               Expanded(
                 child: TextButton(
                   onPressed: _clearExpression,
